@@ -1,0 +1,17 @@
+{
+    "Version": "0x01",
+    "Flags": "0x80",
+    "Command Code": 257,
+    "ApplicationId": 0,
+    "Hop-by-Hop Identifier": "0x10",
+    "End-to-End Identifier": "0x10",
+    "AVPs": [
+        { "Name": "Origin-Host",            "Code": 264, "Flags": "0x40", "Vendor": 0, "Type": "STR",   "Value": "pcrf.example.com",  "Path": "" },
+        { "Name": "Origin-Realm",           "Code": 296, "Flags": "0x40", "Vendor": 0, "Type": "STR",   "Value": "example.com",       "Path": "" },
+        { "Name": "Host-IP-Address",        "Code": 257, "Flags": "0x40", "Vendor": 0, "Type": "IPV4",  "Value": "127.0.0.1",         "Path": "" },
+        { "Name": "Vendor-Id",              "Code": 266, "Flags": "0x40", "Vendor": 0, "Type": "UINT32","Value": 10415,               "Path": "" },
+        { "Name": "Product-Name",           "Code": 269, "Flags": "0x00", "Vendor": 0, "Type": "STR",   "Value": "EXAMPLE PCRF",      "Path": ""},
+        { "Name": "Auth-Application-Id",    "Code": 258, "Flags": "0x40", "Vendor": 0, "Type": "UINT32","Value": 16777238,            "Path": "" },
+        { "Name": "Supported-Vendor-Id",    "Code": 265, "Flags": "0x40", "Vendor": 0, "Type": "UINT32","Value": 1234,                "Path": "" }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "Version": "0x01",
+    "Flags": "0x80",
+    "Command Code": 280,
+    "ApplicationId": 0,
+    "Hop-by-Hop Identifier": "0x10",
+    "End-to-End Identifier": "0x10",
+    "AVPs": [
+        { "Name": "Origin-Host",    "Code": 264, "Flags": "0x40", "Vendor": 0, "Type": "STR", "Value": "pcrf.example.com",    "Path": "" },
+        { "Name": "Origin-Realm",   "Code": 296, "Flags": "0x40", "Vendor": 0, "Type": "STR", "Value": "example.com",         "Path": "" }
+    ]
+}
